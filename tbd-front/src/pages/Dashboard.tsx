@@ -46,7 +46,7 @@ const Dashboard = () => {
               <div className="w-8 h-8 rounded-lg bg-sidebar-primary flex items-center justify-center">
                 <Activity className="w-5 h-5 text-sidebar-primary-foreground" />
               </div>
-              <span className="text-lg font-bold text-sidebar-foreground">Beacon</span>
+              <span className="text-lg font-bold text-sidebar-foreground">TBD</span>
             </div>
           </SidebarHeader>
           <SidebarContent>
@@ -66,7 +66,7 @@ const Dashboard = () => {
           </SidebarContent>
           <SidebarFooter className="p-6 border-t border-sidebar-border">
             <div className="space-y-2">
-              <Button variant="ghost" className="w-full justify-start" onClick={() => navigate('/auth')}>
+              <Button variant="ghost" className="w-full justify-start" onClick={() => navigate('/login')}>
                 Sair
               </Button>
               <Button variant="ghost" className="w-full justify-start text-muted-foreground" onClick={() => navigate('/')}>

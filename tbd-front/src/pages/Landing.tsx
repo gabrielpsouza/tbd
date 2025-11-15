@@ -48,7 +48,7 @@ const Landing = () => {
             <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
               <Activity className="w-5 h-5 text-primary-foreground" />
             </div>
-            <span className="text-xl font-bold">Beacon</span>
+            <span className="text-xl font-bold">TBD</span>
           </div>
           <nav className="hidden md:flex items-center gap-6">
             <a href="#features" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
@@ -60,7 +60,7 @@ const Landing = () => {
             <a href="#pricing" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Preços
             </a>
-            <Button variant="outline" size="sm" onClick={() => navigate('/auth')}>
+            <Button variant="outline" size="sm" onClick={() => navigate('/login')}>
               Entrar
             </Button>
           </nav>
@@ -82,7 +82,7 @@ const Landing = () => {
             Simples, seguro e plug-and-play.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button size="lg" className="gradient-primary text-lg" onClick={() => navigate('/auth')}>
+            <Button size="lg" className="gradient-primary text-lg" onClick={() => navigate('/signup')}>
               Começar Gratuitamente
             </Button>
             <Button size="lg" variant="outline" className="text-lg" onClick={() => navigate('/dashboard')}>
@@ -163,7 +163,7 @@ const Landing = () => {
               Comece hoje mesmo com nosso plano gratuito e monitore suas primeiras métricas em minutos.
             </CardDescription>
             <div className="pt-4">
-              <Button size="lg" variant="secondary" className="text-lg" onClick={() => navigate('/auth')}>
+              <Button size="lg" variant="secondary" className="text-lg" onClick={() => navigate('/signup')}>
                 Começar Agora
               </Button>
             </div>
@@ -179,10 +179,10 @@ const Landing = () => {
               <div className="w-6 h-6 rounded-lg bg-primary flex items-center justify-center">
                 <Activity className="w-4 h-4 text-primary-foreground" />
               </div>
-              <span className="font-semibold">Beacon</span>
+              <span className="font-semibold">TBD</span>
             </div>
             <p className="text-sm text-muted-foreground">
-              © 2025 Beacon. Seu farol de dados.
+              © 2025 TBD. Seu farol de dados.
             </p>
           </div>
         </div>
